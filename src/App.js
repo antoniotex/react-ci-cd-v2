@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to.
+          Edit <code>src/App.js</code> and save to teste mirror.
         </p>
         <a
           className="App-link"
