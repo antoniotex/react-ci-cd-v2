@@ -16,7 +16,7 @@ build project:
   script:
     - yarn
     - yarn build
-    artifacts:
+  artifacts:
       paths:
         - build/
 
