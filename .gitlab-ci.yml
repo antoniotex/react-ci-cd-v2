@@ -1,3 +1,9 @@
+test project:
+  image: node:16
+  script:
+  - yarn
+  - yarn test
+
 build project:
   image: node:16
   script:
