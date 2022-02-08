@@ -7,8 +7,8 @@ test project:
   stage: test
   image: node:16
   script:
-  - yarn
-  - yarn test
+    - yarn
+    - yarn test
 
 build project:
   stage: build
@@ -17,8 +17,8 @@ build project:
     - yarn
     - yarn build
   artifacts:
-      paths:
-        - build/
+    paths:
+      - build/
 
 netlify:
   stage: deploy
