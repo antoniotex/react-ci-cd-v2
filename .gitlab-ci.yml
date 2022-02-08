@@ -14,5 +14,4 @@ build project:
   image: node:16
   script:
     - yarn
-    - yarn test
     - yarn build
